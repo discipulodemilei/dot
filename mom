@@ -1,0 +1,3 @@
+#!/bin/sh
+read -p "Tira Un termino: " termino
+export BROWSER="surf" && wiki-search-html $termino
